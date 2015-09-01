@@ -1,0 +1,33 @@
+#heading{
+    margin-top:4%;
+}
+
+#address{
+    float:right;
+}
+
+.leftAlignment{
+    float:left;
+    margin-left: 10%;
+}
+
+hr{
+    width:90vw;
+}
+
+h3{
+    color:blue;
+}
+
+table{
+    margin-left:5%;
+    width:75vw;
+}
+
+table thead{
+    font-size: medium;
+}
+
+table tr td:nth-child(n) h3{
+    color:black;
+}
