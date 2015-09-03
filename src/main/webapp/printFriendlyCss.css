@@ -1,18 +1,24 @@
 #heading{
-    margin-top:4%;
+    margin-top:1%;
 }
 
 #address{
     float:right;
+    margin-right:18%;   
 }
 
 .leftAlignmentHeadings{
     float:left;
-    margin-left: 10%;
+    margin-left: 6%;
+}
+
+#summary p{
+    width:85%;
 }
 
 hr{
-    width:90vw;
+    float:left;
+    width:75vw;
 }
 
 h3{
@@ -20,8 +26,8 @@ h3{
 }
 
 table{
-    margin-left:5%;
-    width:75vw;
+    margin-left:9%;
+    width:60vw;
 }
 
 table thead{

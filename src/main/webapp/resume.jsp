@@ -10,14 +10,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link href="css.css" type="text/css" rel="stylesheet" />
-        <title>JSP Page</title>
+        <link id="cssChoice" href="css.css" type="text/css" rel="stylesheet" />
+        <title>Alex Plouff - Resume</title>
     </head>
     <body>
         <div id="masterContainer" style="width:90vw; height:100vw">
             
+        <div id="buttonContainer" ><button id="changeButton" onclick="changeCss()">Print Friendly</button></div>
+        
         <div id="heading">
-            <p class="leftAlignment" id="name">Alex Plouff<br>aplouff@my.wctc.edu<br>(414) 534-4418</p>
+            <p class="leftAlignmentHeadings" id="name">Alex Plouff<br>aplouff@my.wctc.edu<br>(414) 534-4418</p>
             <p  id="address">1505 N Franklin Pl.<br>Milwaukee, WI<br>53202</p>
         </div>
             
@@ -25,7 +27,7 @@
             
         <div id="content" class="row">
             
-        <div id="summary" class="leftAlignment">
+        <div id="summary" class="leftAlignmentHeadings">
             <h3>Summary</h3>
             <hr>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am currently enrolled at Waukesha County Technical College in 
@@ -41,7 +43,7 @@
                 various C.R.U.D capabilities. </p>
         </div>
         
-        <div id="education" class="leftAlignment">
+        <div id="education" class="leftAlignmentHeadings">
             <h3>Education</h3>
             <hr>
             <table id="educationTable" >
@@ -86,12 +88,17 @@
                         <td>HTML / CSS</td>
                         <td>Projects Course / .NET Inventory System</td>
                     </tr>
+                    <tr>
+                        <td>JSTL EL</td>
+                        <td>AJAX*</td>
+                        <td></td>
+                    </tr>
                     </tbody>
                 </table>
             
         </div>
         
-        <div id="workHistory" class="leftAlignment">
+        <div id="workHistory" class="leftAlignmentHeadings">
             <h3>Work History</h3>
             <hr>
             <table>
@@ -151,7 +158,7 @@
             </table>
         </div>
              
-        <div id="volunteering" class="leftAlignment">
+        <div id="volunteering" class="leftAlignmentHeadings">
             <h3>Volunteering</h3>
             <hr>
             <table>
@@ -178,5 +185,6 @@
             
         </div>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="js.js" type="text/javascript" ></script>
     </body>
 </html>
